@@ -1,4 +1,3 @@
-aaaaaaaaaaaa
-hoge
-tester
-
+test
+jsの勉強用
+APIの使い方を学ぶため，ホットペッパーのAPIを利用
