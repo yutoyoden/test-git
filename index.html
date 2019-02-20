@@ -9,8 +9,18 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>hello worlds</h1>
-    <button onclick="readAPI()">Sum</button>
-    <button onclick="getUserInfo(`yutoyoden`)">git</button>
+        <h1>郵便番号→住所検索</h1>
+        
+        <input type="text"  id="id_input_zip" maxlength = "7">
+        <button onclick="sendRequest()">検索</button>
+        <div id="id_todou">都道府県</div>
+        
+        <div id="id_sityou">市区町村</div>
+        
+        <div id="id_timei">地名</div>
+        <h1>ホットペッパー店名検索</h1>
+        <input type="text"  id="id_input_conditions" >
+        <button onclick="sendHotpepperRequest()">検索</button>
+        <div id="id_shoplist"></div>
 </body>
 </html>
