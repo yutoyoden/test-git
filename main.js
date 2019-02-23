@@ -76,7 +76,7 @@ function getHotJSON(json){
     }
     const results_returned = results['results_returned'];
     if(results_returned==0){
-        alert("検索結果0件");
+        alert("検索結果0件！");
     }
     var shoplist = [];
     document.getElementById("id_shoplist").innerText = "";
